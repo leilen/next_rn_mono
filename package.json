@@ -1,0 +1,17 @@
+{
+  "name": "next_rn_mono",
+  "private": true,
+  "workspaces": [
+    "web",
+    "app"
+  ],
+  "scripts":{
+    "web": "yarn --cwd ./web run dev",
+    "ios": "yarn --cwd ./app run ios",
+    "android": "yarn --cwd ./app run android",
+    "app": "yarn --cwd ./app start"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT"
+}
